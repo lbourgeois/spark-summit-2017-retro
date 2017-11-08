@@ -12,10 +12,19 @@ Keynote day 1 : Apache Spark 2.2
 * Structured Spark Streaming 
   * from batch plan to incremental plan
   * 4x faster than Flink (Spark SQL optim)
+* Targeting continuous processing without microbatch for Spark 2.3
+*TODO:Deep learning*
 ---
-DatawareHouse & Datalakes
+Delta
+* Unify datawarehouse and datalakes 
 ---
-Build robust structured stream processing
+Structured streaming
+* high level API on top of Spark SQL
+* Spark SQL optimiser / Tungsten
+* Event time aggregation
+  * windowing
+  * UDF
+  * watermarking
 ---
 Spark pef troubleshooting
 ---
