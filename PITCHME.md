@@ -6,7 +6,12 @@ sous titre
 ### Titre 3
 #### Titre 4
 ---
-Deep learning & Streaming in Apache Spark 2.2
+Keynote day 1 : Apache Spark 2.2
+* Spark approach : high level api & unified engine
+* Extended to streaming & deep learning
+* Structured Spark Streaming 
+  * from batch plan to incremental plan
+  * 4x faster than Flink (Spark SQL optim)
 ---
 DatawareHouse & Datalakes
 ---
