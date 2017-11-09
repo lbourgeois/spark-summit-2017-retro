@@ -20,7 +20,7 @@ https://databricks.com/sparksummit/sessions
   * windowing
   * UDF
   * watermarking
-* 4x faster than Flink (Spark SQL optim)
+* 4x faster than Flink
 ---
 #### Storage systems
 * HDFS/HBase/Kudu/Solr
