@@ -1,4 +1,4 @@
-### Spark Summit Europe Retrospective
+### Spark Summit Europe
 https://spark-summit.org/eu-2017/schedule/
 https://databricks.com/sparksummit/sessions
 ---
