@@ -4,7 +4,7 @@
 https://spark-summit.org/eu-2017/schedule/
 https://databricks.com/sparksummit/sessions
 ---
-Keynote day 1 : Apache Spark 2.2
+#### Keynote day 1 : Apache Spark 2.2
 * Spark approach : high level api & unified engine
 * Extended to streaming & deep learning
 * Structured Spark Streaming 
