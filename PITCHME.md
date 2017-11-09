@@ -24,37 +24,6 @@ https://databricks.com/sparksummit/sessions
   * UDF
   * watermarking
 ---
-#### Spark perf troubleshooting
-* marketing benchmarks are antipattern
-* TPC-DS benchmark
-* out of the box tooling : WebUI RestAPI Eventlog
-* https://github.com/LucaCanali/sparkMeasure : collect & analyse Spark metrics using Spark Listeners
----
-#### Spark memory model
-* Key points
-  * RDD stored in binary format
-  * Optimisation on sort and hashmap algorithms
----
-#### Spark SQL optimisation (?)
-* partitions number auto
-* broadcast join
----
-#### Lessons learned from the field (?)
-* Good choices :
-  * tables
-  * Dataframe or Dataset API
-  * columnar / parquet
-  * splittable
----
-#### Auto test Spark workflow (?)
-* Azkaban
----
-#### Dr Elephant
-* Dev productivity vs Cluster efficiency
-* Audit jobs on cluster
-* Recommandations
-* https://github.com/linkedin/dr-elephant
----
 #### Storage systems
 * HDFS/HBase/Kudu/Solr
 * Key questions
@@ -77,7 +46,37 @@ https://databricks.com/sparksummit/sessions
   * Easy /readable
   * Descrive what to do : can be optimized
 ---
+#### Spark memory model
+* Key points
+  * RDD stored in binary format
+  * Optimisation on sort and hashmap algorithms
+---
+#### Spark perf troubleshooting
+* marketing benchmarks are antipattern
+* TPC-DS benchmark
+* out of the box tooling : WebUI RestAPI Eventlog
+* https://github.com/LucaCanali/sparkMeasure : collect & analyse Spark metrics using Spark Listeners
+---
+#### Dr Elephant
+* Dev productivity vs Cluster efficiency
+* Audit jobs on cluster
+* Recommandations
+* https://github.com/linkedin/dr-elephant
+---
 #### Testing Spark
 * https://github.com/holdenk/spark-testing-base
 ---
-
+#### Spark SQL optimisation (?)
+* partitions number auto
+* broadcast join
+---
+#### Lessons learned from the field (?)
+* Good choices :
+  * tables
+  * Dataframe or Dataset API
+  * columnar / parquet
+  * splittable
+---
+#### Auto test Spark workflow (?)
+* Azkaban
+---
