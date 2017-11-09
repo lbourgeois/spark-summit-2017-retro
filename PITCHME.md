@@ -14,7 +14,7 @@ https://databricks.com/sparksummit/sessions
   * Deep Learning pipelines on ML pipelines model
 ---
 #### Structured streaming
-* high level API on top of Spark SQL
+* high level API on top of Spark SQL engine
 * Spark SQL optimizer
 * Event time aggregation
   * windowing
