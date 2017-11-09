@@ -34,7 +34,7 @@ https://databricks.com/sparksummit/sessions
 * internally binary format
 * improvements on sort and hashmap
 ---
-#### Spark SQL optimisation
+#### Spark SQL optimisation (?)
 * partitions number auto
 * broadcast join
 ---
