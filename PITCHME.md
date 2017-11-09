@@ -77,6 +77,7 @@ https://databricks.com/sparksummit/sessions
   * Easy /readable
   * Descrive what to do : can be optimized
 ---
-#### Testing Spark (?)
+#### Testing Spark
+* https://github.com/holdenk/spark-testing-base
 ---
 
