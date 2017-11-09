@@ -63,18 +63,5 @@ https://databricks.com/sparksummit/sessions
 ---
 #### Spark Testing
 * https://github.com/holdenk/spark-testing-base
----
-#### Spark SQL optimisation (?)
-* partitions number auto
-* broadcast join
----
-#### Lessons learned from the field (?)
-* Good choices :
-  * tables
-  * Dataframe or Dataset API
-  * columnar / parquet
-  * splittable
----
-#### Auto test Spark workflow (?)
-* Azkaban
+* Azkaban / AzkabanDSL
 ---
