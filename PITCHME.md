@@ -17,10 +17,7 @@ https://databricks.com/sparksummit/sessions
   * https://github.com/yahoo/TensorFlowOnSpark
   * Deep Learning pipelines on ML pipelines model
 ---
-Delta
-* Unify datawarehouse and datalakes on their good parts
----
-Structured streaming
+#### Structured streaming
 * high level API on top of Spark SQL
 * Spark SQL optimiser / Tungsten
 * Event time aggregation
@@ -28,7 +25,11 @@ Structured streaming
   * UDF
   * watermarking
 ---
-Spark pef troubleshooting
+#### Spark perf troubleshooting
+* marketing benchmarks are antipattern
+* TPCDS benchmark
+* tools WebUI RestAPI Eventlog
+* https://github.com/LucaCanali/sparkMeasure
 ---
 Spark memory model
 ---
