@@ -50,9 +50,9 @@ https://databricks.com/sparksummit/sessions
   * Optimisation on sort and hashmap algorithms
 ---
 #### Spark perf troubleshooting
-* marketing benchmarks are antipattern
+* Marketing benchmarks are antipatterns
 * TPC-DS benchmark
-* out of the box tooling : WebUI RestAPI Eventlog
+* Out of the box tooling : WebUI RestAPI Eventlog
 * https://github.com/LucaCanali/sparkMeasure : collect & analyse Spark metrics using Spark Listeners
 ---
 #### Dr Elephant
