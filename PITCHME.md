@@ -1,5 +1,4 @@
-## Spark Summit Europe Retrospective
-### Dublin
+### Spark Summit Europe Retrospective
 ---
 https://spark-summit.org/eu-2017/schedule/
 https://databricks.com/sparksummit/sessions
@@ -31,15 +30,23 @@ https://databricks.com/sparksummit/sessions
 * tools WebUI RestAPI Eventlog
 * https://github.com/LucaCanali/sparkMeasure
 ---
-Spark memory model
+#### Spark memory model
+* internally binary format
+* improvements on sort and hashmap
 ---
-Spark optimisation
+#### Spark SQL optimisation
+* partitions number auto
+* broadcast join
 ---
-Lessons learned from the field
+#### Lessons learned from the field
+* Good choices :
+  * tables
+  * Dataframe or Dataset API
+  * columnar / parquet
+  * splittable
 ---
-Spark in the cloud
----
-Auto test Spark workflow
+#### Auto test Spark workflow
+* Azkaban
 ---
 Multitenant Spark notebooks workloads
 ---
