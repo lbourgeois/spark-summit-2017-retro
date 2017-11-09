@@ -31,7 +31,7 @@ https://databricks.com/sparksummit/sessions
   * Append/Update
 * Streaming typed => Kudu
 * Batched / Agg => HDFS
-* Streming entity profiled => HBase
+* Streaming entity profiled => HBase
 * Streaming with keyword search => Solr
 ---
 #### RDD DataFrames/Dataset
