@@ -50,13 +50,35 @@ https://databricks.com/sparksummit/sessions
 ---
 Multitenant Spark notebooks workloads
 ---
-Dr Elephant
+#### Dr Elephant
+* Dev productivity vs Cluster efficiency
+* Audit jobs on cluster
+* Recommandations
+* https://github.com/linkedin/dr-elephant
 ---
-Storage systems
+#### Storage systems
+* HDFS/HBase/Kudu/Solr
+* Key questions
+  * SQL/API
+  * RT needed
+  * Ingestion rate
+  * Append/Update
+* Streaming typed => Kudu
+* Batched / Agg => HDFS
+* Streming entity profiled => HBase
+* Streaming with keyword search => Solr
 ---
 Monitor Spark in the cloud
 ---
-RDD DataFrames Dataset
+#### RDD DataFrames Dataset
+* RDD
+  * Control / Flexibility 
+  * Low level / No schema
+  * Describe how to do 
+* DataFrame / Dataset
+  * High level structured APIs with schema
+  * Easy /readable
+  * Descrive what to do : can be optimized
 ---
 Testing Spark
 ---
