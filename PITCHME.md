@@ -3,7 +3,7 @@
 https://spark-summit.org/eu-2017/schedule/
 https://databricks.com/sparksummit/sessions
 ---
-#### Keynote day 1 : Apache Spark 2.2
+#### Apache Spark 2.2 & further
 * Spark approach : high level api & unified engine
 * Extended to streaming & deep learning
 * Structured Spark Streaming 
@@ -26,19 +26,20 @@ https://databricks.com/sparksummit/sessions
 ---
 #### Spark perf troubleshooting
 * marketing benchmarks are antipattern
-* TPCDS benchmark
-* tools WebUI RestAPI Eventlog
-* https://github.com/LucaCanali/sparkMeasure
+* TPC-DS benchmark
+* out of the box tooling : WebUI RestAPI Eventlog
+* https://github.com/LucaCanali/sparkMeasure : collect & analyse Spark metrics using Spark Listeners
 ---
 #### Spark memory model
-* internally binary format
-* improvements on sort and hashmap
+* Key points
+  * RDD stored in binary format
+  * Optimisation on sort and hashmap algorithms
 ---
 #### Spark SQL optimisation (?)
 * partitions number auto
 * broadcast join
 ---
-#### Lessons learned from the field
+#### Lessons learned from the field (?)
 * Good choices :
   * tables
   * Dataframe or Dataset API
