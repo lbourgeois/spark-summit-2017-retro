@@ -63,5 +63,5 @@ https://databricks.com/sparksummit/sessions
 ---
 #### Spark Testing
 * Writing tests : https://github.com/holdenk/spark-testing-base
-* Scheduling exec : Azkaban / AzkabanDSL
+* Scheduling exec : https://azkaban.github.io/
 ---
