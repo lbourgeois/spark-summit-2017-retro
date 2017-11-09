@@ -1,5 +1,4 @@
 ### Spark Summit Europe Retrospective
----
 https://spark-summit.org/eu-2017/schedule/
 https://databricks.com/sparksummit/sessions
 ---
@@ -7,8 +6,6 @@ https://databricks.com/sparksummit/sessions
 * Spark approach : high level api & unified engine
 * Extended to streaming & deep learning
 * Structured Spark Streaming 
-  * from batch plan to incremental plan
-  * 4x faster than Flink (Spark SQL optim)
 * Targeting continuous processing without microbatch for Spark 2.3
 ---
 * Deep learning 
@@ -18,11 +15,12 @@ https://databricks.com/sparksummit/sessions
 ---
 #### Structured streaming
 * high level API on top of Spark SQL
-* Spark SQL optimiser / Tungsten
+* Spark SQL optimizer
 * Event time aggregation
   * windowing
   * UDF
   * watermarking
+* 4x faster than Flink (Spark SQL optim)
 ---
 #### Storage systems
 * HDFS/HBase/Kudu/Solr
@@ -36,7 +34,7 @@ https://databricks.com/sparksummit/sessions
 * Streming entity profiled => HBase
 * Streaming with keyword search => Solr
 ---
-#### RDD DataFrames Dataset
+#### RDD DataFrames/Dataset
 * RDD
   * Control / Flexibility 
   * Low level / No schema
@@ -63,7 +61,7 @@ https://databricks.com/sparksummit/sessions
 * Recommandations
 * https://github.com/linkedin/dr-elephant
 ---
-#### Testing Spark
+#### Spark Testing
 * https://github.com/holdenk/spark-testing-base
 ---
 #### Spark SQL optimisation (?)
