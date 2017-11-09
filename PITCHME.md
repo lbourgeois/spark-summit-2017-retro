@@ -1,10 +1,8 @@
 ## Spark Summit Europe Retrospective
 ### Dublin
 ---
-## Titre 2
-sous titre
-### Titre 3
-#### Titre 4
+https://spark-summit.org/eu-2017/schedule/
+https://databricks.com/sparksummit/sessions
 ---
 Keynote day 1 : Apache Spark 2.2
 * Spark approach : high level api & unified engine
@@ -13,10 +11,13 @@ Keynote day 1 : Apache Spark 2.2
   * from batch plan to incremental plan
   * 4x faster than Flink (Spark SQL optim)
 * Targeting continuous processing without microbatch for Spark 2.3
-*TODO:Deep learning*
+* Deep learning 
+  * image support in MLLib for 2.3
+  * https://github.com/yahoo/TensorFlowOnSpark
+  * Deep Learning pipelines on ML pipelines model
 ---
 Delta
-* Unify datawarehouse and datalakes 
+* Unify datawarehouse and datalakes on their good parts
 ---
 Structured streaming
 * high level API on top of Spark SQL
