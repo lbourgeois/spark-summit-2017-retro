@@ -45,10 +45,8 @@ https://databricks.com/sparksummit/sessions
   * columnar / parquet
   * splittable
 ---
-#### Auto test Spark workflow
+#### Auto test Spark workflow (?)
 * Azkaban
----
-Multitenant Spark notebooks workloads
 ---
 #### Dr Elephant
 * Dev productivity vs Cluster efficiency
@@ -68,8 +66,6 @@ Multitenant Spark notebooks workloads
 * Streming entity profiled => HBase
 * Streaming with keyword search => Solr
 ---
-Monitor Spark in the cloud
----
 #### RDD DataFrames Dataset
 * RDD
   * Control / Flexibility 
@@ -80,6 +76,6 @@ Monitor Spark in the cloud
   * Easy /readable
   * Descrive what to do : can be optimized
 ---
-Testing Spark
+#### Testing Spark (?)
 ---
 
