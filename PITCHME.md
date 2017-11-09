@@ -11,6 +11,7 @@ Keynote day 1 : Apache Spark 2.2
   * from batch plan to incremental plan
   * 4x faster than Flink (Spark SQL optim)
 * Targeting continuous processing without microbatch for Spark 2.3
+---
 * Deep learning 
   * image support in MLLib for 2.3
   * https://github.com/yahoo/TensorFlowOnSpark
